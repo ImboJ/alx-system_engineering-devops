@@ -8,3 +8,4 @@ ls -na is used to display current directory contents, including hidden files (st
 mkdir /tmp/ my_first_directory creates a directory named my_first_directory into /tmp directory.
 mv /tmp/betty /tmp/my_first_directory moves the file betty from /tmp/ to /tmp/my_first_directory.
 rm /tmp/my_first_directory/betty is used to delete the file betty from my_first_directory folder.
+rm -r /tmp/my_first_directory is used to delete my_first_directory directory from /tmp/ directory.
