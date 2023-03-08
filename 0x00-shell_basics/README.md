@@ -5,4 +5,4 @@ cd is used to change the working directory to home directory.
 ls -l is used to display current directory contents in a long format.
 ls -la is used to display current directory contents, including hidden files (starting with .) using the long format.
 ls -na is used to display current directory contents, including hidden files (starting with .) using numbers only.
-mkdir my_first_directory /tmp creates a directory named my_first_directory into /tmp directory.
+mkdir /tmp/ my_first_directory creates a directory named my_first_directory into /tmp directory.
