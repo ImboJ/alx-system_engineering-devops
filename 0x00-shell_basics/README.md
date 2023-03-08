@@ -9,4 +9,5 @@ mkdir /tmp/ my_first_directory creates a directory named my_first_directory into
 mv /tmp/betty /tmp/my_first_directory moves the file betty from /tmp/ to /tmp/my_first_directory.
 rm /tmp/my_first_directory/betty is used to delete the file betty from my_first_directory folder.
 rm -r /tmp/my_first_directory is used to delete my_first_directory directory from /tmp/ directory.
-cd - changes the working directory to the previous one. 
+cd - changes the working directory to the previous one.
+ls -la . .. /boot lists all files including hidden files in long format from the working directory, parent directory and boot directory in that order. 
