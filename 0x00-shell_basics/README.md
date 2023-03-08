@@ -7,3 +7,4 @@ ls -la is used to display current directory contents, including hidden files (st
 ls -na is used to display current directory contents, including hidden files (starting with .) using numbers only.
 mkdir /tmp/ my_first_directory creates a directory named my_first_directory into /tmp directory.
 mv /tmp/betty /tmp/my_first_directory moves the file betty from /tmp/ to /tmp/my_first_directory.
+rm /tmp/my_first_directory/betty is used to delete the file betty from my_first_directory folder.
