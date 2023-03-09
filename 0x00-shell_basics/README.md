@@ -12,4 +12,5 @@ rm -r /tmp/my_first_directory is used to delete my_first_directory directory fro
 cd - changes the working directory to the previous one.
 ls -la . .. /boot lists all files including hidden files in long format from the working directory, parent directory and boot directory in that order.
 ln -s /bin/ls __ls__ creates a symbolic link to /bin/ls, named __ls__ in the current working directory.
-cp -un * .html ../ copies all html files that do not exist or are newer version of the html files from the current working directory to the parent of the working directory.  
+cp -un * .html ../ copies all html files that do not exist or are newer version of the html files from the current working directory to the parent of the working directory.
+mv [[:upper:]]* /tmp/u moves all files beginning with an upper case from the current working directory to the /tmp/u directory.  
