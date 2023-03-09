@@ -13,4 +13,5 @@ cd - changes the working directory to the previous one.
 ls -la . .. /boot lists all files including hidden files in long format from the working directory, parent directory and boot directory in that order.
 ln -s /bin/ls _	ls_ creates a symbolic link to /bin/ls, named __ls__ in the current working directory.
 rm *~ deletes all files ending with ~in the current working directory.
-mkdir -p welcome/to/school creates school directory inside to directory inside welcome directory in the current working directory.  
+mkdir -p welcome/to/school creates school directory inside to directory inside welcome directory in the current working directory.
+ls -ampv lists all files and directories in current working directory separated by a comma and listed in order using digits and directories end in /.  
